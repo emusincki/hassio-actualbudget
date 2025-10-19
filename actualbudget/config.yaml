@@ -15,5 +15,7 @@ ingress: true
 panel_icon: mdi:web  # optional, choose an icon
 panel_title: Actual Budget
 ingress_port: 5006
+ports:
+  5006/tcp: 5006
 image: ghcr.io/actualbudget/actual-server
 version: 25.10.0-alpine
